@@ -73,10 +73,8 @@ After logging in, you'll see the diary menu:
 - Passwords are stored in the same reversible format as diary content, not hashed or salted.
 - There is no protection against multiple users guessing each other's usernames/passwords.
 
-## Possible Improvements / Roadmap
+## Possible Improvements
 
 - [ ] Real password hashing
 - [ ] Actual encryption for diary content
 - [ ] Edit/search functionality for existing entries
-- [ ] Export diary entries to PDF or plain text
-- [ ] Cross-platform packaging (Windows/Linux/Mac builds)
