@@ -73,11 +73,6 @@ After logging in, you'll see the diary menu:
 - Passwords are stored in the same reversible format as diary content, not hashed or salted.
 - There is no protection against multiple users guessing each other's usernames/passwords.
 
-If you want to extend this project, consider:
-- Replacing the ASCII-code storage with real encryption (e.g. AES) or at least a proper password hash (e.g. bcrypt).
-- Adding input validation and file-locking for concurrent access.
-- Encrypting diary content with a key derived from the user's password.
-
 ## Possible Improvements / Roadmap
 
 - [ ] Real password hashing
